@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsPhoneSync.ViewModels.ApplicationViewModel" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAABAAEARAAAwAABIEoABAAkAAUAAAAAABAA=</HashCode>
+      <FileName>ViewModels\ApplicationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.ViewModels.MainWindowViewModel" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAACAAAAAgAAAAAAIIAAACCAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.ViewModels.PreferencesViewModel" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACABAABgCQQAQAgEAAAA=</HashCode>
+      <FileName>ViewModels\PreferencesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.ViewModels.ViewModelBase" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAJEJgCBABAQqABAEAAQgQBmAIQDAAAAABAAAACAyA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsPhoneSync.Views.MainWindow" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAwAAAAABAEAAABAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Views.Preferences" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Preferences.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Views.ViewBase" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEAAAGAACAAoABAAAAAoAAIAgAAgAgACABIAAA=</HashCode>
+      <FileName>Views\ViewBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsPhoneSync.Views.WindowViewBase" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEAAAGAACAAoABgAAAAgIAAgAAAAAgACAAIAAA=</HashCode>
+      <FileName>Views\WindowViewBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsPhoneSync.App" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

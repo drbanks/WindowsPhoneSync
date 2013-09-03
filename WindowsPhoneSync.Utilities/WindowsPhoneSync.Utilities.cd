@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Custom Attributes">
+    <Position X="0.792" Y="0.517" Height="0.358" Width="1.392" />
+  </Comment>
+  <Comment CommentText="Event Handler Classes">
+    <Position X="4.783" Y="0.533" Height="0.342" Width="1.533" />
+  </Comment>
+  <Class Name="WindowsPhoneSync.Utilities.CanBeWindowAttribute" Collapsed="true">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Attributes\CanBeWindowAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.CapabilitiesAttribute" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAgAAAAA=</HashCode>
+      <FileName>Attributes\CapabilitiesAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.ColumnAttribute" Collapsed="true">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQEBAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\ColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.RequeryOnIdleAttribute" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequeryOnIdleAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.ResetSearchAttribute" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\ResetSearchAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.SavedDataPropertyAttribute" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Attributes\SavedDataPropertyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.SaveListPropertyAttribute" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\SaveListPropertyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.EventArgs.ErrorMessageEventArgs" Collapsed="true">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>EventArgs\ErrorMessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsPhoneSync.Utilities.EventArgs.LogEventArgs" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAACAAAAAABAEAABAAAAAAAAAAAAAAAAIAAQAGAA=</HashCode>
+      <FileName>EventArgs\LogEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WindowsPhoneSync.Utilities.EventArgs.LogSeverity" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\LogEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

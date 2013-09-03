@@ -1,0 +1,93 @@
+﻿<l:WindowViewBase x:Class="WindowsPhoneSync.Views.Preferences"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:l="clr-namespace:WindowsPhoneSync.Views"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  mc:Ignorable="d"
+                  Icon="../Images/sync.ico"
+                  Height="400"
+                  Width="300"
+                  d:DesignHeight="400"
+                  d:DesignWidth="300"
+                  Title="Preferences"
+                  MaxWidth="300"
+                  MaxHeight="400"
+                  ResizeMode="NoResize"
+                  WindowStartupLocation="CenterOwner"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="34" />
+            <RowDefinition Height="34" />
+            <RowDefinition />
+            <RowDefinition Height="34" />
+        </Grid.RowDefinitions>
+        
+        <Label FontSize="24"
+               FontWeight="Medium"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="99">Preferences</Label>
+
+        <Label Grid.Row="1"
+               Grid.Column="0">Keep iTunes Open for</Label>
+        <StackPanel HorizontalAlignment="Left"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    Grid.Row="1"
+                    Grid.Column="1">
+            <TextBox ToolTip="After the service has been idle this many minutes, iTunes will be shut down and reopened the next time there is activity"
+                     Width="40"
+                     Text="{Binding ITunesIdleMinutes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock>minutes</TextBlock>
+        </StackPanel>
+        
+        <Label Grid.Row="3"
+               Grid.Column="0">Web Service Settings:</Label>
+        
+        <Label Grid.Row="4"
+               Grid.Column="0">Listen on Port #</Label>
+        <TextBox Width="60"
+                 Text="{Binding Port, Mode=TwoWay}"
+                 Grid.Row="4"
+                 Grid.Column="1" />
+        
+        <Label Grid.Row="5"
+               Grid.Column="0">User Name</Label>
+        <TextBox ToolTip="Authentication username for the web service.  Choose any value you like, or leave blank if you want it to be open."
+                 Width="120"
+                 Text="{Binding UserName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Grid.Row="5"
+                 Grid.Column="1" />
+        
+        <Label Grid.Row="6"
+               Grid.Column="0">Password</Label>
+        <TextBox ToolTip="Password for securing the web service.  Leave blank if you want to leave the service open."
+                 Width="120"
+                 Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Grid.Row="6"
+                 Grid.Column="1" />
+        
+        <StackPanel HorizontalAlignment="Right"
+                    Orientation="Horizontal"
+                    Grid.Row="99"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="99">
+            <Button Click="OkClick"
+                    IsDefault="True">OK</Button>
+        </StackPanel>
+    </Grid>
+</l:WindowViewBase>
